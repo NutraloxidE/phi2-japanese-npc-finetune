@@ -1,3 +1,5 @@
+This shit is wip af
+
 # phi2 Japanese NPC Fine-Tuning Project
 
 This project is designed to fine-tune the phi2 model for use as NPCs (Non-Playable Characters) in games, specifically targeting Japanese language interactions. The goal is to create a model that can understand and generate contextually relevant dialogues for NPCs, enhancing the gaming experience.
