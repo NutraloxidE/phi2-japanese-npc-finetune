@@ -1,0 +1,19 @@
+train:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+data:
+  raw_data_path: "data/raw/"
+  processed_data_path: "data/processed/"
+  train_data_file: "train_data.json"
+  validation_data_file: "validation_data.json"
+
+model:
+  architecture: "phi2"
+  pretrained_model_path: "path/to/pretrained/model"
+
+output:
+  model_save_path: "models/phi2_finetuned.onnx"
+  logs_path: "logs/training.log"
