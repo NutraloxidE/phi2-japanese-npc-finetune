@@ -30,7 +30,7 @@ training_args = TrainingArguments(
     num_train_epochs=3,
     save_steps=20,
     logging_steps=10,
-    fp16=False,
+    fp16=True,
 )
 
 trainer = Trainer(
